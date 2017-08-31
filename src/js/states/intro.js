@@ -17,15 +17,15 @@ class IntroState extends Phaser.State {
         // underscores will not be printed, but they cause a pause in the
         // "typing".
         this.introText = `
-It's 2:00 AM...
+S&atilde;o 2:00 da manh&atilde;...
 ____
-You are responsible for an urgent production
-deployment.
+Voc&ecirc; &eacute; o respons&aacute;vel por um deploy urgente 
+em produ&ccedil;&atilde;o.
 ____
-To meet the deadline, wave your hand left and
-right to catch Customer Portal resources.
+Para atingir o prazo, mova sua m&atilde;o para esquerda
+e para a direita para pegar os recursos do Portal do Cliente.
 ____
-But first... get some coffee.`;
+Mas primeiro... pegue um caf&eacute;.`;
     }
 
     next() {
