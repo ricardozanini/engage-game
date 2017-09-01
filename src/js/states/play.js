@@ -295,7 +295,7 @@ class PlayState extends Phaser.State {
         const getCVE = this.createText('Resolva vulns:', 0, 670);
         this.legendGroup.add(getCVE);
 
-        const bonus = this.createText('Pontos b&ocirc;nus:', 0, 860);
+        const bonus = this.createText('Pontos bônus:', 0, 860);
         this.legendGroup.add(bonus);
 
 
@@ -928,14 +928,17 @@ class PlayState extends Phaser.State {
                         console.log("[play] Sending email message to prev top score player: ", topName, topEmail);
                         let formData = new FormData();
                         formData.set('to', topEmail);
-                        formData.set('subject', "Someone beat your Engage high score");
+                        formData.set('subject', "Alguém bateu seu recorde no jogo Engage!");
                         formData.set('text', `${topName},
 
-Someone beat your high score in Engage! Come to the Customer Portal Engage Game in Participation Square and defend your title!
+Alguém bate o seu recorde no jogo Engage! 
+Retorne ao nosso stand e defenda o seu título de campeão!!
 
-Engage Game Team,
-    Michael Clayton <mclayton@redhat.com>
-    Jared Sprague <jsprague@redhat.com>`);
+Customer Experience Engagement,
+
+Um abraço!
+
+Time Red Hat`);
 
                         fetch(
                             config.ENGAGE_SERVER_URL + '/sendMessage',
