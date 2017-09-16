@@ -10,7 +10,7 @@
     LeaderboardController.$inject = ['$scope', '$interval', 'leaderboardservice'];
 
     var host = window.location.host;
-    var serviceUrl = 'http://' + host + ':1337/parse/classes/leaders'
+    var serviceUrl = 'http://' + host + ':1337/parse/classes/leaders',
         maxLeaders = 10,
         updateInterval = 5000;
 
