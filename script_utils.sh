@@ -42,3 +42,5 @@ db.leaders.find()
 
 # to remove a specific email
 db.leaders.remove({email : "the_email@example.com"})
+
+# reference: https://docs.mongodb.com/manual/reference/mongo-shell/
