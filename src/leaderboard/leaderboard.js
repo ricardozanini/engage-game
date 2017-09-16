@@ -9,7 +9,8 @@
     leaderboardservice.$inject = ['$http'];
     LeaderboardController.$inject = ['$scope', '$interval', 'leaderboardservice'];
 
-    var serviceUrl = 'http://localhost:1337/parse/classes/leaders',
+    var host = window.localtion.host;
+    var serviceUrl = 'http://' + host + ':1337/parse/classes/leaders';
         maxLeaders = 10,
         updateInterval = 5000;
 
