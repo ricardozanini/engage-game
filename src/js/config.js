@@ -1,3 +1,5 @@
+var host = window.location.host.split(":")[0];
+
 const config = Object.freeze({
 
     // skip splash and intro states (for rapid development)
@@ -7,10 +9,10 @@ const config = Object.freeze({
     ALWAYS_WINNER: false,
 
     // URL to parse leaderboard database
-    PARSE_URL: 'http://localhost:1337/parse/classes/leaders',
+    PARSE_URL: 'http://' + host + ':1337/parse/classes/leaders',
 
     // Mail gun url for notifying leaders
-    ENGAGE_SERVER_URL: 'http://localhost:8000',
+    ENGAGE_SERVER_URL: 'http://'+ host +':8000',
 
     // Max character length for name and email submissions
     MAX_INPUT_LENGTH: 30,
