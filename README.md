@@ -7,6 +7,14 @@ A Customer Portal game for Red Hat Summit 2017 in Boston.
     npm install
     npm start
 
+## Translating
+
+Just edit these files:
+
+  1. The Leaderboards form: `src/index.html`
+  2. That little intro story: `src/js/intro.js` lines ~20-27
+  3. The scoreboard: `src/js/play.js` lines ~289-300, 567, 934-941
+
 ## Leap motion setup
 
 The game can be played with a mouse, but for extra fun, set up a Leap motion device as follows.

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<joystick configversion="19" appversion="2.23">
+    <!--The SDL name for a joystick is included for informational purposes only.-->
+    <sdlname>Wireless Controller</sdlname>
+    <!--The GUID for a joystick is included for informational purposes only.-->
+    <guid>050000004c050000c405000000810000</guid>
+    <sets>
+        <set index="1">
+            <axis index="1">
+                <throttle>normal</throttle>
+                <axisbutton index="1">
+                    <slots>
+                        <slot>
+                            <code>3</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </axisbutton>
+                <axisbutton index="2">
+                    <slots>
+                        <slot>
+                            <code>4</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </axisbutton>
+            </axis>
+            <axis index="2">
+                <throttle>normal</throttle>
+                <axisbutton index="1">
+                    <slots>
+                        <slot>
+                            <code>1</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </axisbutton>
+                <axisbutton index="2">
+                    <slots>
+                        <slot>
+                            <code>2</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </axisbutton>
+            </axis>
+            <axis index="3">
+                <throttle>positive</throttle>
+            </axis>
+            <axis index="4">
+                <throttle>normal</throttle>
+                <axisbutton index="1">
+                    <slots>
+                        <slot>
+                            <code>3</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </axisbutton>
+                <axisbutton index="2">
+                    <slots>
+                        <slot>
+                            <code>4</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </axisbutton>
+            </axis>
+            <axis index="5">
+                <throttle>normal</throttle>
+                <axisbutton index="1">
+                    <slots>
+                        <slot>
+                            <code>1</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </axisbutton>
+                <axisbutton index="2">
+                    <slots>
+                        <slot>
+                            <code>2</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </axisbutton>
+            </axis>
+            <axis index="6">
+                <throttle>positive</throttle>
+            </axis>
+            <dpad index="1">
+                <dpadbutton index="4">
+                    <slots>
+                        <slot>
+                            <code>2</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+                <dpadbutton index="8">
+                    <slots>
+                        <slot>
+                            <code>3</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+                <dpadbutton index="2">
+                    <slots>
+                        <slot>
+                            <code>4</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+                <dpadbutton index="1">
+                    <slots>
+                        <slot>
+                            <code>1</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+            </dpad>
+        </set>
+    </sets>
+</joystick>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<joystick configversion="19" appversion="2.23">
+    <!--The SDL name for a joystick is included for informational purposes only.-->
+    <sdlname>WiseGroup.,Ltd PS/SS/DC Joypad to USB BOX</sdlname>
+    <!--The GUID for a joystick is included for informational purposes only.-->
+    <guid>03000000250900006888000000010000</guid>
+    <sets>
+        <set index="1">
+            <axis index="1">
+                <throttle>normal</throttle>
+                <axisbutton index="1">
+                    <slots>
+                        <slot>
+                            <code>3</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </axisbutton>
+                <axisbutton index="2">
+                    <slots>
+                        <slot>
+                            <code>4</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </axisbutton>
+            </axis>
+            <axis index="2">
+                <throttle>normal</throttle>
+                <axisbutton index="1">
+                    <slots>
+                        <slot>
+                            <code>1</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </axisbutton>
+                <axisbutton index="2">
+                    <slots>
+                        <slot>
+                            <code>2</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </axisbutton>
+            </axis>
+            <axis index="3">
+                <throttle>normal</throttle>
+                <axisbutton index="1">
+                    <slots>
+                        <slot>
+                            <code>3</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </axisbutton>
+                <axisbutton index="2">
+                    <slots>
+                        <slot>
+                            <code>4</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </axisbutton>
+            </axis>
+            <axis index="4">
+                <throttle>positive</throttle>
+            </axis>
+        </set>
+    </sets>
+</joystick>
